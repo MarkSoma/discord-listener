@@ -1,4 +1,4 @@
-## Use the official Node.js LTS image
+## Pull Node.js image
 FROM node:18-alpine
 
 ## Create app directory
@@ -7,10 +7,10 @@ WORKDIR /app
 ## Copy source files
 COPY . .
 
-## Install required packages directly
+## Install required packages
 RUN npm install discord.js dotenv node-fetch@2
 
-## Set environment variables (you can override these when running the container)
+## Set environment variable for Node (other ENV variables are passed at run time)
 ENV NODE_ENV=production
 
 ## Run the application
