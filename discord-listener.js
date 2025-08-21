@@ -16,7 +16,7 @@ client.on('messageCreate', async (message) => {
 
   // Filter for a specific channel
   if (message.channel.id === process.env.CHANNEL_ID) {
-    console.log(`📨 Message received: ${message.content}`);
+    console.log(`Message received: ${message.content}`);
     
     // Forward the message to the N8N webhook
     try {
