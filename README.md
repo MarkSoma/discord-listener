@@ -1,6 +1,6 @@
 # Discord Listener Bot (Docker)
 
-I created this because I was running a local N8N instance and wanted to be able to have a Discord bot respond to incoming messages. By running it on the same user defined Docker bridge network as the N8N container, no public tunnel is required for incoming webhooks and N8N can quickly facilitate the interaction between Discord and the backend AI server.
+I created this because I was running a local N8N instance and wanted to be able to have a Discord bot respond to incoming messages. By running it on the same user defined Docker bridge network as the N8N container, no public facing tunnel is required for incoming webhooks and N8N can quickly facilitate the interaction between Discord and the backend AI server.
 
 ## Prerequisites
 
