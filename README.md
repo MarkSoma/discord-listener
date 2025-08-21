@@ -5,7 +5,8 @@ I created this because I was running a local N8N instance and wanted to be able 
 ## Prerequisites
 
 - Docker
-- Discord Bot Token
+- Discord Bot Token (https://discord.com/developers/applications)
+   - In the settings, you'll need to enable Message Content Intent (under Bot > Priveleged Gateway Intents) or this won't work
 - Discord Channel ID
 - Webhook URL for forwarding messages
 
