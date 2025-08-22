@@ -37,3 +37,7 @@ I created this because I was running a fully local N8N instance and wanted to be
    - `your_discord_bot_token`: Acquired from https://discord.com/developers/applications, create an application and generate a bot token
    - `your_discord_channel_id`: From Discord, you have to turn on developer mode and then you are able to copy the ID by right-clicking on the channel. Can also just grab the last part of the URL when you click into the channel.
    - `your_webhook_url`: In my case, this was a webhook trigger in N8N listening for POST requests
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
