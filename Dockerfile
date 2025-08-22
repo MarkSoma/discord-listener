@@ -5,7 +5,7 @@ FROM node:18-alpine
 WORKDIR /app
 
 ## Copy source files
-COPY . .
+COPY discord-listener.js .
 
 ## Install required packages
 RUN npm install discord.js dotenv node-fetch@2
